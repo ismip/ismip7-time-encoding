@@ -52,7 +52,7 @@ time.units = 'days since 1850-01-01 00:00:00'
 time.calendar = 'standard'
 # assign data
 dataout = np.array(data)
-time[:] = dataout[1:,2]
+time[:] = dataout[1:,3]
 year[:] = dataout[1:,0]
 # close file
 ds.close()
